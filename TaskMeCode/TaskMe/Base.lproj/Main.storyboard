@@ -89,6 +89,13 @@
                                     <constraint firstItem="Cw1-Rw-7vS" firstAttribute="leading" secondItem="9l5-Lk-Qyv" secondAttribute="leading" id="zYo-R0-Ifc"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AZ-J1-Bge">
+                                <rect key="frame" x="71" y="454" width="207" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.84454309940338135" green="0.92933708429336548" blue="0.9546629786491394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -103,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1213" y="57"/>
+            <point key="canvasLocation" x="1212.5" y="56.5"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="z2o-Ew-EFm">
