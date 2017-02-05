@@ -47,7 +47,7 @@
 		5F01CAB81E3C361400411506 /* TaskMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F01CABC1E3C361400411506 /* TaskMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMeUITests.swift; sourceTree = "<group>"; };
 		5F01CABE1E3C361400411506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F188DBF1E46EFFD00EB73E2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F188DBF1E46EFFD00EB73E2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = TaskMe/ViewController.swift; sourceTree = "<group>"; };
 		5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +79,7 @@
 		5F01CA901E3C361400411506 = {
 			isa = PBXGroup;
 			children = (
+				5F188DBF1E46EFFD00EB73E2 /* ViewController.swift */,
 				5F01CA9B1E3C361400411506 /* TaskMe */,
 				5F01CAB01E3C361400411506 /* TaskMeTests */,
 				5F01CABB1E3C361400411506 /* TaskMeUITests */,
@@ -99,7 +100,6 @@
 		5F01CA9B1E3C361400411506 /* TaskMe */ = {
 			isa = PBXGroup;
 			children = (
-				5F188DBF1E46EFFD00EB73E2 /* ViewController.swift */,
 				5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */,
 				5F01CA9C1E3C361400411506 /* AppDelegate.swift */,
 				5F01CAA01E3C361400411506 /* Main.storyboard */,
