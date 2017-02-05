@@ -14,8 +14,7 @@
 		5F01CAA71E3C361400411506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F01CAA51E3C361400411506 /* LaunchScreen.storyboard */; };
 		5F01CAB21E3C361400411506 /* TaskMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01CAB11E3C361400411506 /* TaskMeTests.swift */; };
 		5F01CABD1E3C361400411506 /* TaskMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01CABC1E3C361400411506 /* TaskMeUITests.swift */; };
-		5F1A8C841E4035DF00039E20 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A8C831E4035DF00039E20 /* MenuViewController.swift */; };
-		C935D0E91E41A65600589AEB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C935D0E81E41A65600589AEB /* Media.xcassets */; };
+		5F54557C1E46D21200D9511F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F54557B1E46D21200D9511F /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,7 @@
 		5F01CAB81E3C361400411506 /* TaskMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F01CABC1E3C361400411506 /* TaskMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMeUITests.swift; sourceTree = "<group>"; };
 		5F01CABE1E3C361400411506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F1A8C831E4035DF00039E20 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = TaskMe/MenuViewController.swift; sourceTree = "<group>"; };
-		C935D0E81E41A65600589AEB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5F54557B1E46D21200D9511F /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		5F01CA901E3C361400411506 = {
 			isa = PBXGroup;
 			children = (
-				5F1A8C831E4035DF00039E20 /* MenuViewController.swift */,
 				5F01CA9B1E3C361400411506 /* TaskMe */,
 				5F01CAB01E3C361400411506 /* TaskMeTests */,
 				5F01CABB1E3C361400411506 /* TaskMeUITests */,
@@ -105,7 +102,7 @@
 				5F01CA9C1E3C361400411506 /* AppDelegate.swift */,
 				5F01CA9E1E3C361400411506 /* ViewController.swift */,
 				5F01CAA01E3C361400411506 /* Main.storyboard */,
-				C935D0E81E41A65600589AEB /* Media.xcassets */,
+				5F54557B1E46D21200D9511F /* ContentViewController.swift */,
 				5F01CAA31E3C361400411506 /* Assets.xcassets */,
 				5F01CAA51E3C361400411506 /* LaunchScreen.storyboard */,
 				5F01CAA81E3C361400411506 /* Info.plist */,
@@ -240,7 +237,6 @@
 			files = (
 				5F01CAA71E3C361400411506 /* LaunchScreen.storyboard in Resources */,
 				5F01CAA41E3C361400411506 /* Assets.xcassets in Resources */,
-				C935D0E91E41A65600589AEB /* Media.xcassets in Resources */,
 				5F01CAA21E3C361400411506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F01CA9F1E3C361400411506 /* ViewController.swift in Sources */,
-				5F1A8C841E4035DF00039E20 /* MenuViewController.swift in Sources */,
+				5F54557C1E46D21200D9511F /* ContentViewController.swift in Sources */,
 				5F01CA9D1E3C361400411506 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
