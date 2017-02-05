@@ -268,18 +268,18 @@
             </objects>
             <point key="canvasLocation" x="1194.5" y="863.5"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Root Page View Controller-->
         <scene sceneID="9lT-8e-O0W">
             <objects>
-                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="NCj-Bo-mw6" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="NCj-Bo-mw6" customClass="RootPageViewController" customModule="TaskMe" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NeZ-f1-xfJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="214" y="2656"/>
         </scene>
-        <!--Content View Controller-->
+        <!--View Controller-->
         <scene sceneID="OXW-yL-pq5">
             <objects>
-                <viewController storyboardIdentifier="Welcome" id="mKX-Dn-wNY" customClass="ContentViewController" customModule="TaskMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Welcome" id="mKX-Dn-wNY" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sxy-hU-ezK"/>
                         <viewControllerLayoutGuide type="bottom" id="tCL-cG-7Bh"/>
@@ -452,8 +452,8 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="tLi-hG-LsP"/>
         <segue reference="rH6-Go-W5J"/>
+        <segue reference="tLi-hG-LsP"/>
         <segue reference="eBV-SV-Uhu"/>
     </inferredMetricsTieBreakers>
 </document>
