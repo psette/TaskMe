@@ -15,6 +15,8 @@
 		5F01CABD1E3C361400411506 /* TaskMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01CABC1E3C361400411506 /* TaskMeUITests.swift */; };
 		5F188DC01E46EFFD00EB73E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F188DBF1E46EFFD00EB73E2 /* ViewController.swift */; };
 		5F47CE0D1E6E2E8A00E0CF75 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F47CE0C1E6E2E8A00E0CF75 /* SWRevealViewController.m */; };
+		5F47CE141E6E404E00E0CF75 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F47CE131E6E404E00E0CF75 /* HomeViewController.swift */; };
+		5F47CE161E6E448000E0CF75 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F47CE151E6E448000E0CF75 /* MenuViewController.swift */; };
 		5FBE9C211E46E9E0008D2A4D /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		5F47CE0A1E6E2E8900E0CF75 /* TaskMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskMe-Bridging-Header.h"; sourceTree = "<group>"; };
 		5F47CE0B1E6E2E8A00E0CF75 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		5F47CE0C1E6E2E8A00E0CF75 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5F47CE131E6E404E00E0CF75 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F47CE151E6E448000E0CF75 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +143,8 @@
 				5F47CE0B1E6E2E8A00E0CF75 /* SWRevealViewController.h */,
 				5F47CE0C1E6E2E8A00E0CF75 /* SWRevealViewController.m */,
 				5F47CE0A1E6E2E8900E0CF75 /* TaskMe-Bridging-Header.h */,
+				5F47CE131E6E404E00E0CF75 /* HomeViewController.swift */,
+				5F47CE151E6E448000E0CF75 /* MenuViewController.swift */,
 			);
 			name = SWRevealController;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F47CE141E6E404E00E0CF75 /* HomeViewController.swift in Sources */,
+				5F47CE161E6E448000E0CF75 /* MenuViewController.swift in Sources */,
 				5F188DC01E46EFFD00EB73E2 /* ViewController.swift in Sources */,
 				5F01CA9D1E3C361400411506 /* AppDelegate.swift in Sources */,
 				5FBE9C211E46E9E0008D2A4D /* RootPageViewController.swift in Sources */,
