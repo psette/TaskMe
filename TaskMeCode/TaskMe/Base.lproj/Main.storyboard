@@ -350,7 +350,7 @@
         <!--Navigation Controller-->
         <scene sceneID="WbL-xu-i3N">
             <objects>
-                <navigationController id="fO3-qw-Rcq" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="PeskyNavController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fO3-qw-Rcq" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0qr-LW-ALZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -413,47 +413,10 @@
             </objects>
             <point key="canvasLocation" x="3307" y="-64"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="9IU-dy-gfl">
-            <objects>
-                <navigationController id="UMW-E2-ciY" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3oF-6o-Vao">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="E1h-Vp-EDx" kind="relationship" relationship="rootViewController" id="Sd3-59-JeO"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WI5-U6-P94" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2761" y="717"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="0zH-e0-egc">
-            <objects>
-                <viewController id="E1h-Vp-EDx" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aVP-7w-fpg"/>
-                        <viewControllerLayoutGuide type="bottom" id="FgO-P0-xpA"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="eWP-0r-23u">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Vne-bR-px6">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="QG2-7m-LNP"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YSO-gs-8XV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3307" y="717"/>
-        </scene>
         <!--Menu View Controller-->
         <scene sceneID="X6c-HS-uO5">
             <objects>
-                <tableViewController id="5oq-Jx-Td2" customClass="MenuViewController" customModule="TaskMe" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="5oq-Jx-Td2" customClass="MenuViewController" customModule="TaskMe" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="aSk-Wy-lnf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
