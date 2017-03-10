@@ -403,8 +403,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kgv-T6-9ah">
-                        <barButtonItem key="leftBarButtonItem" title="Profile" id="6gN-yZ-GGp"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="6gN-yZ-GGp"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="6gN-yZ-GGp" id="8nt-m0-lnG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kkz-lP-Q53" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

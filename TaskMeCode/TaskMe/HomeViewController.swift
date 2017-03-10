@@ -10,11 +10,14 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addGestureRecognizer(revealViewController().panGestureRecognizer())
-        view.addGestureRecognizer(revealViewController().tapGestureRecognizer())
-
+        if self.revealViewController() != nil {
+            menuButton.target = self.revealViewController()
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
         // Do any additional setup after loading the view.
     }
 
