@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AA7D8F94B21CA875953D8CE /* Pods_TaskMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B933546795CC5A5A1E654 /* Pods_TaskMeTests.framework */; };
 		5F01CA9D1E3C361400411506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01CA9C1E3C361400411506 /* AppDelegate.swift */; };
 		5F01CAA21E3C361400411506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F01CAA01E3C361400411506 /* Main.storyboard */; };
 		5F01CAA41E3C361400411506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F01CAA31E3C361400411506 /* Assets.xcassets */; };
@@ -17,7 +18,12 @@
 		5F47CE0D1E6E2E8A00E0CF75 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F47CE0C1E6E2E8A00E0CF75 /* SWRevealViewController.m */; };
 		5F47CE141E6E404E00E0CF75 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F47CE131E6E404E00E0CF75 /* HomeViewController.swift */; };
 		5F47CE161E6E448000E0CF75 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F47CE151E6E448000E0CF75 /* MenuViewController.swift */; };
+		5F4E10F31E726356006CA1A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E10F21E726356006CA1A7 /* LoginViewController.swift */; };
+		5F4E10F51E726386006CA1A7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E10F41E726386006CA1A7 /* SignUpViewController.swift */; };
+		5F721AA81E760C5E0040B860 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F721AA71E760C5E0040B860 /* GoogleService-Info.plist */; };
 		5FBE9C211E46E9E0008D2A4D /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */; };
+		783837D40A998D8764854226 /* Pods_TaskMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0954096C9A534E10CA11D885 /* Pods_TaskMeUITests.framework */; };
+		AF816DFAEC0D00E5A3E361E0 /* Pods_TaskMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE71E4046E890BB5A276494 /* Pods_TaskMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0954096C9A534E10CA11D885 /* Pods_TaskMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		134AAF894C8E5EC5948C4FA2 /* Pods-TaskMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMe/Pods-TaskMe.release.xcconfig"; sourceTree = "<group>"; };
+		419B933546795CC5A5A1E654 /* Pods_TaskMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F01CA991E3C361400411506 /* TaskMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F01CA9C1E3C361400411506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F01CAA11E3C361400411506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +65,16 @@
 		5F47CE0C1E6E2E8A00E0CF75 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		5F47CE131E6E404E00E0CF75 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5F47CE151E6E448000E0CF75 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5F4E10F21E726356006CA1A7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5F4E10F41E726386006CA1A7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5F721AA71E760C5E0040B860 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		715E56D549FB7A1A939D7263 /* Pods-TaskMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeUITests/Pods-TaskMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85C196DEB8B265F00AA6753E /* Pods-TaskMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMe/Pods-TaskMe.debug.xcconfig"; sourceTree = "<group>"; };
+		8887451F9EBF7F2C57FD0675 /* Pods-TaskMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeUITests/Pods-TaskMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE71E4046E890BB5A276494 /* Pods_TaskMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD44F52664354E2424D5F8AA /* Pods-TaskMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeTests/Pods-TaskMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5BCB67D5854E25C0C59F71D /* Pods-TaskMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeTests/Pods-TaskMeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF816DFAEC0D00E5A3E361E0 /* Pods_TaskMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA7D8F94B21CA875953D8CE /* Pods_TaskMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783837D40A998D8764854226 /* Pods_TaskMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AE333ED96287351FC2CF169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CE71E4046E890BB5A276494 /* Pods_TaskMe.framework */,
+				419B933546795CC5A5A1E654 /* Pods_TaskMeTests.framework */,
+				0954096C9A534E10CA11D885 /* Pods_TaskMeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5F01CA901E3C361400411506 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +123,8 @@
 				5F01CAB01E3C361400411506 /* TaskMeTests */,
 				5F01CABB1E3C361400411506 /* TaskMeUITests */,
 				5F01CA9A1E3C361400411506 /* Products */,
+				CDA7297E9A855E4822786159 /* Pods */,
+				3AE333ED96287351FC2CF169 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +143,9 @@
 			children = (
 				5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */,
 				5F01CA9C1E3C361400411506 /* AppDelegate.swift */,
+				5F721AA71E760C5E0040B860 /* GoogleService-Info.plist */,
 				5F01CAA01E3C361400411506 /* Main.storyboard */,
+				5F4E10F61E72638A006CA1A7 /* Login/SignUp Controllers */,
 				5F47CE0E1E6E2E9100E0CF75 /* SWRevealController */,
 				5F01CAA31E3C361400411506 /* Assets.xcassets */,
 				5F01CAA51E3C361400411506 /* LaunchScreen.storyboard */,
@@ -149,6 +184,28 @@
 			name = SWRevealController;
 			sourceTree = "<group>";
 		};
+		5F4E10F61E72638A006CA1A7 /* Login/SignUp Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F4E10F21E726356006CA1A7 /* LoginViewController.swift */,
+				5F4E10F41E726386006CA1A7 /* SignUpViewController.swift */,
+			);
+			name = "Login/SignUp Controllers";
+			sourceTree = "<group>";
+		};
+		CDA7297E9A855E4822786159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C196DEB8B265F00AA6753E /* Pods-TaskMe.debug.xcconfig */,
+				134AAF894C8E5EC5948C4FA2 /* Pods-TaskMe.release.xcconfig */,
+				CD44F52664354E2424D5F8AA /* Pods-TaskMeTests.debug.xcconfig */,
+				F5BCB67D5854E25C0C59F71D /* Pods-TaskMeTests.release.xcconfig */,
+				8887451F9EBF7F2C57FD0675 /* Pods-TaskMeUITests.debug.xcconfig */,
+				715E56D549FB7A1A939D7263 /* Pods-TaskMeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F01CAC11E3C361400411506 /* Build configuration list for PBXNativeTarget "TaskMe" */;
 			buildPhases = (
+				9E3092252775940058FEB8A7 /* [CP] Check Pods Manifest.lock */,
 				5F01CA951E3C361400411506 /* Sources */,
 				5F01CA961E3C361400411506 /* Frameworks */,
 				5F01CA971E3C361400411506 /* Resources */,
+				8C30C4A1C8BB74AC32A3A152 /* [CP] Embed Pods Frameworks */,
+				BACD40C0374DFE62C90A4604 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F01CAC41E3C361400411506 /* Build configuration list for PBXNativeTarget "TaskMeTests" */;
 			buildPhases = (
+				C6989880C7A8F2E7E45BAAA6 /* [CP] Check Pods Manifest.lock */,
 				5F01CAA91E3C361400411506 /* Sources */,
 				5F01CAAA1E3C361400411506 /* Frameworks */,
 				5F01CAAB1E3C361400411506 /* Resources */,
+				93EE98104C9FF679D3EE8925 /* [CP] Embed Pods Frameworks */,
+				795C6D8EBD41F6B3209A34D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F01CAC71E3C361400411506 /* Build configuration list for PBXNativeTarget "TaskMeUITests" */;
 			buildPhases = (
+				99DA11A3FDB6A226B8437A13 /* [CP] Check Pods Manifest.lock */,
 				5F01CAB41E3C361400411506 /* Sources */,
 				5F01CAB51E3C361400411506 /* Frameworks */,
 				5F01CAB61E3C361400411506 /* Resources */,
+				7BA9F10FE4BFA51050DB2712 /* [CP] Embed Pods Frameworks */,
+				91A250BF586412BD504D4D09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F01CAA71E3C361400411506 /* LaunchScreen.storyboard in Resources */,
+				5F721AA81E760C5E0040B860 /* GoogleService-Info.plist in Resources */,
 				5F01CAA41E3C361400411506 /* Assets.xcassets in Resources */,
 				5F01CAA21E3C361400411506 /* Main.storyboard in Resources */,
 			);
@@ -279,12 +346,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		795C6D8EBD41F6B3209A34D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeTests/Pods-TaskMeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BA9F10FE4BFA51050DB2712 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeUITests/Pods-TaskMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C30C4A1C8BB74AC32A3A152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMe/Pods-TaskMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A250BF586412BD504D4D09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeUITests/Pods-TaskMeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EE98104C9FF679D3EE8925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeTests/Pods-TaskMeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DA11A3FDB6A226B8437A13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3092252775940058FEB8A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BACD40C0374DFE62C90A4604 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMe/Pods-TaskMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6989880C7A8F2E7E45BAAA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F01CA951E3C361400411506 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4E10F31E726356006CA1A7 /* LoginViewController.swift in Sources */,
 				5F47CE141E6E404E00E0CF75 /* HomeViewController.swift in Sources */,
+				5F4E10F51E726386006CA1A7 /* SignUpViewController.swift in Sources */,
 				5F47CE161E6E448000E0CF75 /* MenuViewController.swift in Sources */,
 				5F188DC01E46EFFD00EB73E2 /* ViewController.swift in Sources */,
 				5F01CA9D1E3C361400411506 /* AppDelegate.swift in Sources */,
@@ -439,6 +646,7 @@
 		};
 		5F01CAC21E3C361400411506 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C196DEB8B265F00AA6753E /* Pods-TaskMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -457,6 +665,7 @@
 		};
 		5F01CAC31E3C361400411506 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134AAF894C8E5EC5948C4FA2 /* Pods-TaskMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -474,6 +683,7 @@
 		};
 		5F01CAC51E3C361400411506 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD44F52664354E2424D5F8AA /* Pods-TaskMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +698,7 @@
 		};
 		5F01CAC61E3C361400411506 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BCB67D5854E25C0C59F71D /* Pods-TaskMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +713,7 @@
 		};
 		5F01CAC81E3C361400411506 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8887451F9EBF7F2C57FD0675 /* Pods-TaskMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TaskMeUITests/Info.plist;
@@ -515,6 +727,7 @@
 		};
 		5F01CAC91E3C361400411506 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715E56D549FB7A1A939D7263 /* Pods-TaskMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TaskMeUITests/Info.plist;

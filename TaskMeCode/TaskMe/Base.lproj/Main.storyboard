@@ -13,7 +13,7 @@
         <!--Sign Up-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Sign Up" id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController title="Sign Up" id="BYZ-38-t0r" customClass="SignUpViewController" customModule="TaskMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9xi-r9-ng8"/>
                         <viewControllerLayoutGuide type="bottom" id="rb4-kr-b7s"/>
@@ -194,7 +194,7 @@
         <!--Log In-->
         <scene sceneID="bc1-rJ-37P">
             <objects>
-                <viewController storyboardIdentifier="Log In" title="Log In" id="abk-uK-SoF" sceneMemberID="viewController">
+                <viewController title="Log In" id="abk-uK-SoF" customClass="LoginViewController" customModule="TaskMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WPU-HW-qbB"/>
                         <viewControllerLayoutGuide type="bottom" id="Sdp-HE-kEh"/>
@@ -246,7 +246,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Hfe-Ju-KUh" kind="modal" id="6vJ-MH-UOm"/>
+                                            <action selector="LoginAttempted:" destination="abk-uK-SoF" eventType="touchUpInside" id="Pcl-l8-eKw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ao6-Ge-WJD">
@@ -276,10 +276,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fq7-2y-e6n"/>
+                    <connections>
+                        <outlet property="emailText" destination="SKl-be-oKG" id="HA0-Ho-lxO"/>
+                        <outlet property="passwordText" destination="pBL-ov-dk3" id="8UO-36-Cgw"/>
+                        <segue destination="Hfe-Ju-KUh" kind="modal" identifier="LogInNow" id="lCc-Jb-ahq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCF-bl-Gvq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1245" y="1347"/>
+            <point key="canvasLocation" x="1219" y="990"/>
         </scene>
         <!--Root Page View Controller-->
         <scene sceneID="9lT-8e-O0W">
@@ -520,7 +525,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihl-Bu-FAq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2015.5" y="-133.5"/>
+            <point key="canvasLocation" x="2055" y="-66"/>
         </scene>
     </scenes>
     <resources>
@@ -532,8 +537,8 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="lCc-Jb-ahq"/>
         <segue reference="dH0-dc-3mJ"/>
         <segue reference="Xil-xc-Yte"/>
-        <segue reference="6vJ-MH-UOm"/>
     </inferredMetricsTieBreakers>
 </document>
