@@ -11,6 +11,8 @@ struct UserInfoLocal {
     static var FirstName = ""
     static var LastName = ""
 
+    static var userID = ""
+    
     static var Email = ""
     static var isAuthenticated = false
 

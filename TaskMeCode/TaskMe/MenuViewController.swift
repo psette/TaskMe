@@ -11,7 +11,7 @@ import UIKit
 class MenuViewController: UITableViewController {
 
     override func viewDidLoad() {
-        self.revealViewController().rearViewRevealWidth = 100
+        self.revealViewController().rearViewRevealWidth = 300
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations

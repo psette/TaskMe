@@ -78,8 +78,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
                 UserInfoLocal.Email = (user?.email)!
                 UserInfoLocal.FirstName = (user?.displayName)!
             
-                print("First name")
-                print(UserInfoLocal.FirstName)
+                UserInfoLocal.userID = (user?.uid)!
             
                 self.performSegue(withIdentifier: "LogInNow", sender: self)
             }

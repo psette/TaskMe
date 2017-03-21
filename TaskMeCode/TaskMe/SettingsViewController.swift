@@ -1,19 +1,18 @@
 //
-//  HomeViewController.swift
+//  SettingsViewController.swift
 //  TaskMe
 //
-//  Created by Pietro Sette on 3/6/17.
+//  Created by Pietro Sette on 3/21/17.
 //  Copyright © 2017 Pietro Sette. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     @IBOutlet var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
@@ -21,6 +20,7 @@ class HomeViewController: UIViewController {
         }
         // Do any additional setup after loading the view.
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

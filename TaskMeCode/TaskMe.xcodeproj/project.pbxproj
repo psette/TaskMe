@@ -21,6 +21,12 @@
 		5F4E10F31E726356006CA1A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E10F21E726356006CA1A7 /* LoginViewController.swift */; };
 		5F4E10F51E726386006CA1A7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E10F41E726386006CA1A7 /* SignUpViewController.swift */; };
 		5F721AA81E760C5E0040B860 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F721AA71E760C5E0040B860 /* GoogleService-Info.plist */; };
+		5FA688F01E8121DD007FF74C /* RequestTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA688EF1E8121DD007FF74C /* RequestTaskViewController.swift */; };
+		5FA688F21E81226B007FF74C /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA688F11E81226B007FF74C /* CompleteTaskViewController.swift */; };
+		5FA688F41E81227E007FF74C /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA688F31E81227E007FF74C /* MyProfileViewController.swift */; };
+		5FA688F61E81228E007FF74C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA688F51E81228E007FF74C /* SettingsViewController.swift */; };
+		5FA688F81E81CE6A007FF74C /* RequestTaskOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA688F71E81CE6A007FF74C /* RequestTaskOptionsViewController.swift */; };
+		5FA688FA1E81CF2B007FF74C /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA688F91E81CF2B007FF74C /* CurrencyField.swift */; };
 		5FBE9C211E46E9E0008D2A4D /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */; };
 		783837D40A998D8764854226 /* Pods_TaskMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0954096C9A534E10CA11D885 /* Pods_TaskMeUITests.framework */; };
 		AF816DFAEC0D00E5A3E361E0 /* Pods_TaskMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE71E4046E890BB5A276494 /* Pods_TaskMe.framework */; };
@@ -68,6 +74,12 @@
 		5F4E10F21E726356006CA1A7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5F4E10F41E726386006CA1A7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5F721AA71E760C5E0040B860 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FA688EF1E8121DD007FF74C /* RequestTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTaskViewController.swift; sourceTree = "<group>"; };
+		5FA688F11E81226B007FF74C /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
+		5FA688F31E81227E007FF74C /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		5FA688F51E81228E007FF74C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5FA688F71E81CE6A007FF74C /* RequestTaskOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTaskOptionsViewController.swift; sourceTree = "<group>"; };
+		5FA688F91E81CF2B007FF74C /* CurrencyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
 		5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		715E56D549FB7A1A939D7263 /* Pods-TaskMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeUITests/Pods-TaskMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85C196DEB8B265F00AA6753E /* Pods-TaskMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMe/Pods-TaskMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +157,7 @@
 				5F01CA9C1E3C361400411506 /* AppDelegate.swift */,
 				5F721AA71E760C5E0040B860 /* GoogleService-Info.plist */,
 				5F01CAA01E3C361400411506 /* Main.storyboard */,
+				5FA688FC1E81CF3D007FF74C /* RequestTaskLogic */,
 				5F4E10F61E72638A006CA1A7 /* Login/SignUp Controllers */,
 				5F47CE0E1E6E2E9100E0CF75 /* SWRevealController */,
 				5F01CAA31E3C361400411506 /* Assets.xcassets */,
@@ -179,6 +192,10 @@
 				5F47CE0C1E6E2E8A00E0CF75 /* SWRevealViewController.m */,
 				5F47CE0A1E6E2E8900E0CF75 /* TaskMe-Bridging-Header.h */,
 				5F47CE131E6E404E00E0CF75 /* HomeViewController.swift */,
+				5FA688EF1E8121DD007FF74C /* RequestTaskViewController.swift */,
+				5FA688F11E81226B007FF74C /* CompleteTaskViewController.swift */,
+				5FA688F51E81228E007FF74C /* SettingsViewController.swift */,
+				5FA688F31E81227E007FF74C /* MyProfileViewController.swift */,
 				5F47CE151E6E448000E0CF75 /* MenuViewController.swift */,
 			);
 			name = SWRevealController;
@@ -191,6 +208,15 @@
 				5F4E10F41E726386006CA1A7 /* SignUpViewController.swift */,
 			);
 			name = "Login/SignUp Controllers";
+			sourceTree = "<group>";
+		};
+		5FA688FC1E81CF3D007FF74C /* RequestTaskLogic */ = {
+			isa = PBXGroup;
+			children = (
+				5FA688F91E81CF2B007FF74C /* CurrencyField.swift */,
+				5FA688F71E81CE6A007FF74C /* RequestTaskOptionsViewController.swift */,
+			);
+			name = RequestTaskLogic;
 			sourceTree = "<group>";
 		};
 		CDA7297E9A855E4822786159 /* Pods */ = {
@@ -490,13 +516,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F4E10F31E726356006CA1A7 /* LoginViewController.swift in Sources */,
+				5FA688FA1E81CF2B007FF74C /* CurrencyField.swift in Sources */,
 				5F47CE141E6E404E00E0CF75 /* HomeViewController.swift in Sources */,
 				5F4E10F51E726386006CA1A7 /* SignUpViewController.swift in Sources */,
 				5F47CE161E6E448000E0CF75 /* MenuViewController.swift in Sources */,
+				5FA688F41E81227E007FF74C /* MyProfileViewController.swift in Sources */,
+				5FA688F81E81CE6A007FF74C /* RequestTaskOptionsViewController.swift in Sources */,
+				5FA688F21E81226B007FF74C /* CompleteTaskViewController.swift in Sources */,
 				5F188DC01E46EFFD00EB73E2 /* ViewController.swift in Sources */,
+				5FA688F01E8121DD007FF74C /* RequestTaskViewController.swift in Sources */,
 				5F01CA9D1E3C361400411506 /* AppDelegate.swift in Sources */,
 				5FBE9C211E46E9E0008D2A4D /* RootPageViewController.swift in Sources */,
 				5F47CE0D1E6E2E8A00E0CF75 /* SWRevealViewController.m in Sources */,
+				5FA688F61E81228E007FF74C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,14 +1,14 @@
 //
-//  HomeViewController.swift
+//  CompleteTaskViewController.swift
 //  TaskMe
 //
-//  Created by Pietro Sette on 3/6/17.
+//  Created by Pietro Sette on 3/21/17.
 //  Copyright © 2017 Pietro Sette. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class CompleteTaskViewController: UIViewController {
 
     @IBOutlet var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
@@ -19,8 +19,10 @@ class HomeViewController: UIViewController {
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+
         // Do any additional setup after loading the view.
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

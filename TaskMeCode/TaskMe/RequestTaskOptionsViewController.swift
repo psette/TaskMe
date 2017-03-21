@@ -1,24 +1,18 @@
 //
-//  HomeViewController.swift
+//  RequestTaskOptionsViewController.swift
 //  TaskMe
 //
-//  Created by Pietro Sette on 3/6/17.
+//  Created by Pietro Sette on 3/21/17.
 //  Copyright © 2017 Pietro Sette. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class RequestTaskOptionsViewController: UIViewController {
 
-    @IBOutlet var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if self.revealViewController() != nil {
-            menuButton.target = self.revealViewController()
-            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
-            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
+
         // Do any additional setup after loading the view.
     }
 

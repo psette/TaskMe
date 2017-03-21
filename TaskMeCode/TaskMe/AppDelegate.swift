@@ -49,12 +49,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             }
             
             UserInfoLocal.Email = (user?.email)!
-            UserInfoLocal.FirstName = (user?.displayName)!
-            
-            print("First name")
+            let nameArray = (user?.displayName)!.components(separatedBy: " ")
+            if nameArray.count >= 2{
+                UserInfoLocal.FirstName = nameArray[0]
+                UserInfoLocal.LastName = nameArray[1]
+            } else {
+                UserInfoLocal.FirstName = (user?.displayName)!
+            }
+            UserInfoLocal.userID = (user?.uid)!
             print(UserInfoLocal.FirstName)
             
-
             let sb = UIStoryboard(name: "Main", bundle: nil)
             
             self.window?.rootViewController = sb.instantiateViewController(withIdentifier: "LoggedIn") as UIViewController

@@ -58,13 +58,14 @@ class SignUpViewController: UIViewController {
             confirmPasswordField.text = ""
             return
         }
-        let ref = FIRDatabase.database().reference()
         FIRAuth.auth()?.createUser(withEmail: email!, password: password!) { (user, error) in
                 if error != nil {
                     self.showErrorMessage(message: (error?.localizedDescription)!)
                     return
                 }   else {
-
+                    
+                    let ref = FIRDatabase.database().reference()
+                    
                     let newUser = [
                         "firstName": firstNameText!,
                         "lastName": lastNameText!,
@@ -73,6 +74,8 @@ class SignUpViewController: UIViewController {
                     ] as [String : Any]
                     
                     UserInfoLocal.Email = email!
+                    
+                    UserInfoLocal.userID = (user?.uid)!
                     
                     UserInfoLocal.FirstName = firstNameText!
                     UserInfoLocal.LastName = lastNameText!
