@@ -13,11 +13,41 @@ class LoginViewController: UIViewController {
 
     @IBOutlet var passwordText: UITextField!
     @IBOutlet var emailText: UITextField!
+    
     func showErrorMessage(message: String) {
         let alert = UIAlertController(title: "", message: message, preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Retry", style: UIAlertActionStyle.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
+    
+    @IBAction func forgotPassoword(sender: AnyObject)
+    {
+        if self.emailText.text == ""
+        {
+            showErrorMessage(message: "Please enter an email.")
+            
+        }
+        else
+        {
+            FIRAuth.auth()?.sendPasswordReset(withEmail: self.emailText.text!, completion: { (error) in
+                
+                var message = ""
+                
+                if error != nil
+                {
+                    message = (error?.localizedDescription)!
+                }
+                else
+                {
+                    message = "Password reset email sent."
+                    self.emailText.text = ""
+                }
+                
+                self.showErrorMessage(message: message)
+            })
+        }
+    }
+    
     @IBAction func LoginAttempted(_ sender: Any) {
         if let email = self.emailText.text, let password = self.passwordText.text {
             if email == "" && password == ""{
