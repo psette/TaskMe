@@ -7,6 +7,16 @@
 //
 import UIKit
 
+struct UserInfoLocal {
+    static var FirstName = ""
+    static var LastName = ""
+
+    static var Email = ""
+    static var isAuthenticated = false
+
+    
+}
+
 class ViewController: UIViewController  {
     
 

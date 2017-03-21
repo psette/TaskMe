@@ -66,15 +66,21 @@ class SignUpViewController: UIViewController {
                 }   else {
 
                     let newUser = [
-                        "firstName": firstNameText,
-                        "lastName": lastNameText,
-                        "email" : email
-                    ]
-
+                        "firstName": firstNameText!,
+                        "lastName": lastNameText!,
+                        "email" : email!,
+                        "isAuthenticated" : false
+                    ] as [String : Any]
+                    
+                    UserInfoLocal.Email = email!
+                    
+                    UserInfoLocal.FirstName = firstNameText!
+                    UserInfoLocal.LastName = lastNameText!
+                    
                     ref.child("users").child((user?.uid)!).setValue(newUser)
                 }
             
-                self.performSegue(withIdentifier: "LogInNow", sender: self)
+            self.performSegue(withIdentifier: "SignInNow", sender: self)
 
         }
         

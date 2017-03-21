@@ -8,11 +8,22 @@
 
 import UIKit
 import FirebaseAuth
+import GoogleSignIn
 
-class LoginViewController: UIViewController {
+
+class LoginViewController: UIViewController, GIDSignInUIDelegate {
 
     @IBOutlet var passwordText: UITextField!
     @IBOutlet var emailText: UITextField!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        GIDSignIn.sharedInstance().uiDelegate = self
+        
+        // TODO(developer) Configure the sign-in button look/feel
+        // ...
+    }
     
     func showErrorMessage(message: String) {
         let alert = UIAlertController(title: "", message: message, preferredStyle: UIAlertControllerStyle.alert)
@@ -64,6 +75,12 @@ class LoginViewController: UIViewController {
                     self.showErrorMessage(message: error.localizedDescription)
                     return
                 }
+                UserInfoLocal.Email = (user?.email)!
+                UserInfoLocal.FirstName = (user?.displayName)!
+            
+                print("First name")
+                print(UserInfoLocal.FirstName)
+            
                 self.performSegue(withIdentifier: "LogInNow", sender: self)
             }
         } else {
