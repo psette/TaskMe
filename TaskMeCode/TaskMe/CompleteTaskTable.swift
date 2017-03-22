@@ -56,31 +56,33 @@ class CompleteTaskTable: UITableViewController , CLLocationManagerDelegate {
     }
     
     func makeCellContent(section: Int)-> customCell{
+        
         let cell = self.myTableView.dequeueReusableCell(withIdentifier: "FeedCell") as! customCell
+        
         if(nearbyTasks.count == 0 ){
-            print("A")
-
+            
+            cell.ammountLabel.text = ""
             cell.cellLabel.text = "Waiting for results"
             
         } else if( currentPlace >= nearbyTasks.count){
-            print("b")
+            
+            cell.ammountLabel.text = ""
             cell.cellLabel.text = "Waiting for results"
         
         } else if( section == -1){
-            print("c")
-
+            
+            cell.ammountLabel.text = ""
             cell.cellLabel.text = "Waiting for results"
 
         } else{
-            print("d")
 
             if(categoryTitles[section] != nearbyTasks[currentPlace].category){
-                print("e")
-
+                
+                cell.ammountLabel.text = ""
                 cell.cellLabel.text = "Waiting for results"
+                
             } else {
-                print("f")
-
+                
                 let ammount:String = String(format:"%.2f", nearbyTasks[currentPlace].bounty)
                 cell.ammountLabel.text = "$" + ammount
                 cell.cellLabel.text = nearbyTasks[currentPlace].description
@@ -89,6 +91,7 @@ class CompleteTaskTable: UITableViewController , CLLocationManagerDelegate {
 
             }
         }
+        
         return cell
 
     }
