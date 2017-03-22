@@ -55,43 +55,77 @@ class CompleteTaskTable: UITableViewController , CLLocationManagerDelegate {
         }
     }
     
+    func makeCellContent(section: Int)-> customCell{
+        let cell = self.myTableView.dequeueReusableCell(withIdentifier: "FeedCell") as! customCell
+        if(nearbyTasks.count == 0 ){
+            print("A")
+
+            cell.cellLabel.text = "Waiting for results"
+            
+        } else if( currentPlace >= nearbyTasks.count){
+            print("b")
+            cell.cellLabel.text = "Waiting for results"
+        
+        } else if( section == -1){
+            print("c")
+
+            cell.cellLabel.text = "Waiting for results"
+
+        } else{
+            print("d")
+
+            if(categoryTitles[section] != nearbyTasks[currentPlace].category){
+                print("e")
+
+                cell.cellLabel.text = "Waiting for results"
+            } else {
+                print("f")
+
+                let ammount:String = String(format:"%.2f", nearbyTasks[currentPlace].bounty)
+                cell.ammountLabel.text = "$" + ammount
+                cell.cellLabel.text = nearbyTasks[currentPlace].description
+                print(cell.cellLabel.text!)
+                currentPlace += 1
+
+            }
+        }
+        return cell
+
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> customCell {
         
-        if(nearbyTasks.count == 0 || currentPlace >= nearbyTasks.count){
-            var i = 0
-            while(true){
-                let temp = self.myTableView.dequeueReusableCell(withIdentifier: categoryTitles[i]) as! customCell
-
-                i += 1
-
-                if(temp.cellLabel.text == ""){
-                    
-                    temp.cellLabel.text = "Waiting for results"
-                    return temp;
-                    
-                }else if(temp.cellLabel.text == "Waiting for results"){
-                    
-                    return temp;
-                
-                } else if( i == 6){
-                    
-                    temp.cellLabel.text  = "Waiting for results"
-                    return temp;
-                    
-                }
-                
-            }
+        switch indexPath.section{
+        case 0:
+            print("Section" + String(indexPath.section))
+            return makeCellContent(section: 0)
             
-        } else{
+        case 1:
+            print("Section" + String(indexPath.section))
+            return makeCellContent(section: 1)
             
-            let cell = self.myTableView.dequeueReusableCell(withIdentifier: nearbyTasks[currentPlace].category) as! customCell
-            let ammount:String = String(format:"%.2f", nearbyTasks[currentPlace].bounty)
-            cell.ammountLabel.text = "$" + ammount
-            cell.cellLabel.text = nearbyTasks[currentPlace].description
-            currentPlace += 1
-            return cell
+        case 2:
+            print("Section" + String(indexPath.section))
+            return makeCellContent(section: 2)
             
+        case 3:
+            print("Section" + String(indexPath.section))
+            return makeCellContent(section: 3)
+            
+        case 4:
+            print("Section" + String(indexPath.section))
+            return makeCellContent(section: 4)
+            
+        case 5:
+            print("Section" + String(indexPath.section))
+            return makeCellContent(section: 5)
+            
+        default:
+            print("Section" + String(indexPath.section))
+            return makeCellContent(section: -1)
+       
         }
+        
         
     }
     
