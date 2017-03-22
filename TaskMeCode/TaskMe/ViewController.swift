@@ -13,6 +13,7 @@ struct UserInfoLocal {
 
     static var userID = ""
     
+    static var radius = 80467.2
     static var Email = ""
     static var isAuthenticated = false
 

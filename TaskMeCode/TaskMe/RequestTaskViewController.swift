@@ -26,12 +26,17 @@ class RequestTaskViewController: UIViewController, UIPickerViewDelegate, UIPicke
         let pickerValue = pickerData[indexSelected]
         let newTask = [
             "id" : UserInfoLocal.userID,
-            "location" : locationManager.location as Any,
+            "latitude" : locationManager.location?.coordinate.latitude ?? -404.00,
+            "longitude" : locationManager.location?.coordinate.longitude ?? -404.00,
             "category" : pickerValue,
-            "bounty" : ammountOffered.amount
+            "description" : descriptionField.text,
+            "bounty" : ammountOffered.amount,
+            "started" : false
             ] as [String : Any]
-        
+        print("ID")
+        print(UserInfoLocal.userID)
         ref.child("tasks").child(UserInfoLocal.userID).setValue(newTask)
+        
 
     }
     
