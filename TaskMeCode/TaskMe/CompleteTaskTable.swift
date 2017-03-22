@@ -62,32 +62,37 @@ class CompleteTaskTable: UITableViewController , CLLocationManagerDelegate {
         if(nearbyTasks.count == 0 ){
             
             cell.ammountLabel.text = ""
-            cell.cellLabel.text = "Waiting for results"
+            cell.cellLabel.text = "Waiting for tasks"
             
         } else if( currentPlace >= nearbyTasks.count){
             
-            cell.ammountLabel.text = ""
-            cell.cellLabel.text = "Waiting for results"
-        
+            if(cell.cellLabel.text == "Label"){
+                cell.ammountLabel.text = ""
+                cell.cellLabel.text = "Waiting for tasks"
+            }
+            
+            return cell
+            
         } else if( section == -1){
             
             cell.ammountLabel.text = ""
-            cell.cellLabel.text = "Waiting for results"
+            cell.cellLabel.text = "Waiting for tasks"
 
         } else{
 
-            if(categoryTitles[section] != nearbyTasks[currentPlace].category){
-                
-                cell.ammountLabel.text = ""
-                cell.cellLabel.text = "Waiting for results"
-                
-            } else {
+            if(categoryTitles[section] == nearbyTasks[currentPlace].category){
                 
                 let ammount:String = String(format:"%.2f", nearbyTasks[currentPlace].bounty)
                 cell.ammountLabel.text = "$" + ammount
                 cell.cellLabel.text = nearbyTasks[currentPlace].description
                 print(cell.cellLabel.text!)
                 currentPlace += 1
+
+                
+            } else {
+                
+                cell.ammountLabel.text = ""
+                cell.cellLabel.text = "Waiting for tasks"
 
             }
         }
