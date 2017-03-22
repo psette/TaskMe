@@ -57,7 +57,7 @@ class RequestTaskViewController: UIViewController, UIPickerViewDelegate, UIPicke
         self.picker.delegate = self
         self.picker.dataSource = self
         
-        pickerData = ["Cat 1", "Cat 2", "Cat 3", "Cat 4", "Cat 5", "Cat 6"]
+        pickerData = ["Category1", "Category2", "Category3", "Category4", "Category5", "Category6"]
         // Do any additional setup after loading the view.
         // Ask for Authorisation from the User.
         self.locationManager.requestAlwaysAuthorization()

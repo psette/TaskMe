@@ -111,7 +111,6 @@ class CompleteTaskViewController: UIViewController, CLLocationManagerDelegate {
     
     
     func displayTasks(){
-        
     }
     
     override func didReceiveMemoryWarning() {
