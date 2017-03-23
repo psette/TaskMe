@@ -26,7 +26,7 @@
                                 <rect key="frame" x="46" y="153" width="283" height="276"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sign Up" textAlignment="center" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="FIJ-3d-eOb">
-                                        <rect key="frame" x="52.5" y="0.0" width="178" height="60"/>
+                                        <rect key="frame" x="53" y="0.0" width="178" height="60"/>
                                         <color key="textColor" red="0.55287873740000004" green="0.55297708509999999" blue="0.55287259820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -147,7 +147,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="the user-to-user mobile marketplace" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="imN-8j-8ZN">
-                                        <rect key="frame" x="29.5" y="120" width="284" height="21"/>
+                                        <rect key="frame" x="30" y="120" width="284" height="21"/>
                                         <color key="textColor" red="0.55287873740000004" green="0.55297708509999999" blue="0.55287259820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -222,7 +222,7 @@
                                 <rect key="frame" x="46" y="123" width="283" height="319"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Log In" textAlignment="center" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="OWT-kM-rjM">
-                                        <rect key="frame" x="72.5" y="0.0" width="138" height="60"/>
+                                        <rect key="frame" x="73" y="0.0" width="138" height="60"/>
                                         <color key="textColor" red="0.55287873740000004" green="0.55297708509999999" blue="0.55287259820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -265,7 +265,7 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hs3-wP-h6d" customClass="GIDSignInButton">
-                                        <rect key="frame" x="116.5" y="191" width="50" height="128"/>
+                                        <rect key="frame" x="117" y="191" width="50" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
@@ -377,7 +377,7 @@
         <scene sceneID="WbL-xu-i3N">
             <objects>
                 <navigationController storyboardIdentifier="PeskyNavController" title="HomeNavController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fO3-qw-Rcq" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0qr-LW-ALZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0qr-LW-ALZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -623,7 +623,7 @@
         <scene sceneID="EWR-pI-iVp">
             <objects>
                 <navigationController title="NavCompleteTask" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rfh-MF-rA4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="kYz-BS-bxb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kYz-BS-bxb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -639,7 +639,7 @@
         <scene sceneID="eDu-rm-Kz9">
             <objects>
                 <navigationController title="NavRequestTask" useStoryboardIdentifierAsRestorationIdentifier="YES" id="An7-Yn-bPs" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="UIA-J7-tyt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UIA-J7-tyt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -725,7 +725,7 @@
         <scene sceneID="pY8-EM-fmS">
             <objects>
                 <navigationController title="NavSettings" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ppp-kT-BB5" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0u1-Of-i4Y">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0u1-Of-i4Y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -774,7 +774,7 @@
         <scene sceneID="dTR-XZ-RBw">
             <objects>
                 <navigationController title="NavMyProfile" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GB4-aI-VoN" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="WhQ-tC-Drq">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WhQ-tC-Drq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -835,21 +835,43 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ty-ny-RP6">
-                                            <rect key="frame" x="8" y="9" width="62" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S1-v5-hW2">
-                                            <rect key="frame" x="86" y="5" width="281" height="59"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZy-5D-fuB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ty-ny-RP6">
+                                                    <rect key="frame" x="8" y="0.0" width="98" height="44"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="98" id="2sf-fw-S4K"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S1-v5-hW2">
+                                                    <rect key="frame" x="122" y="0.0" width="253" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="5S1-v5-hW2" firstAttribute="top" secondItem="FZy-5D-fuB" secondAttribute="top" id="9n4-l6-w4u"/>
+                                                <constraint firstItem="5S1-v5-hW2" firstAttribute="leading" secondItem="5ty-ny-RP6" secondAttribute="trailing" constant="16" id="C9s-8I-6sZ"/>
+                                                <constraint firstAttribute="bottom" secondItem="5S1-v5-hW2" secondAttribute="bottom" id="Nvn-4j-BBi"/>
+                                                <constraint firstItem="5ty-ny-RP6" firstAttribute="leading" secondItem="FZy-5D-fuB" secondAttribute="leading" constant="8" id="RQG-lT-sVj"/>
+                                                <constraint firstItem="5ty-ny-RP6" firstAttribute="top" secondItem="FZy-5D-fuB" secondAttribute="top" id="RWt-cb-3Gj"/>
+                                                <constraint firstAttribute="bottom" secondItem="5ty-ny-RP6" secondAttribute="bottom" id="ZpH-ez-RqE"/>
+                                                <constraint firstAttribute="trailing" secondItem="5S1-v5-hW2" secondAttribute="trailing" id="bCt-Cz-AyV"/>
+                                            </constraints>
+                                        </view>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="FZy-5D-fuB" secondAttribute="bottom" id="HsM-st-OQk"/>
+                                        <constraint firstItem="FZy-5D-fuB" firstAttribute="leading" secondItem="pqj-El-bGn" secondAttribute="leading" id="lOr-gu-oVu"/>
+                                        <constraint firstItem="FZy-5D-fuB" firstAttribute="top" secondItem="pqj-El-bGn" secondAttribute="top" id="m2T-Nh-k0r"/>
+                                        <constraint firstAttribute="trailing" secondItem="FZy-5D-fuB" secondAttribute="trailing" id="wCQ-Ru-AoT"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="ammountLabel" destination="5ty-ny-RP6" id="i2J-hE-4LM"/>
@@ -871,7 +893,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CRr-df-wXu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3790" y="3767"/>
+            <point key="canvasLocation" x="3789.5" y="3766.5"/>
         </scene>
     </scenes>
     <resources>
