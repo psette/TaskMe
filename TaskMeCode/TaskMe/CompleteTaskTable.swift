@@ -137,8 +137,21 @@ class CompleteTaskTable: UITableViewController , CLLocationManagerDelegate {
         
     }
     
+    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
+    
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return categoryTitles[section]
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.tableView.layoutSubviews()
     }
     
     
