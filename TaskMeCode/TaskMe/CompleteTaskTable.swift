@@ -231,13 +231,15 @@ class CompleteTaskTable: UITableViewController , CLLocationManagerDelegate {
     
     func loadTasks(){
         
-        let ref = FIRDatabase.database().reference().child("tasks")
+        let ref = FIRDatabase.database().reference()
         
         var keys = [String]()
         
         var i = 0
         
-        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+        let postRef = ref.child("tasks")
+
+        _ = postRef.observe(FIRDataEventType.value, with: { (snapshot) in
             // Get user value
             let value = snapshot.value as? NSDictionary
             
