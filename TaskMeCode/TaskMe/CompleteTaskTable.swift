@@ -105,31 +105,25 @@ class CompleteTaskTable: UITableViewController , CLLocationManagerDelegate {
         
         switch indexPath.section{
         case 0:
-            print("Section" + String(indexPath.section))
             return makeCellContent(section: 0)
             
         case 1:
-            print("Section" + String(indexPath.section))
             return makeCellContent(section: 1)
             
         case 2:
-            print("Section" + String(indexPath.section))
             return makeCellContent(section: 2)
             
         case 3:
-            print("Section" + String(indexPath.section))
             return makeCellContent(section: 3)
             
         case 4:
-            print("Section" + String(indexPath.section))
             return makeCellContent(section: 4)
             
         case 5:
-            print("Section" + String(indexPath.section))
             return makeCellContent(section: 5)
             
         default:
-            print("Section" + String(indexPath.section))
+            print("Section not found" + String(indexPath.section))
             return makeCellContent(section: -1)
        
         }
@@ -241,6 +235,7 @@ class CompleteTaskTable: UITableViewController , CLLocationManagerDelegate {
 
         _ = postRef.observe(FIRDataEventType.value, with: { (snapshot) in
             // Get user value
+            self.nearbyTasks.removeAll()
             let value = snapshot.value as? NSDictionary
             
             for key in ((snapshot.value as AnyObject).allKeys)!{
