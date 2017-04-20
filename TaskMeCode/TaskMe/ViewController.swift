@@ -19,6 +19,15 @@ struct UserInfoLocal {
 
     
 }
+struct deliveryPrefrences {
+    
+    static var pickupLong = 0.0
+    static var pickupLat = 0.0
+    
+    static var dropoffLong = 0.0
+    static var dropoffLat = 0.0
+    
+}
 
 class ViewController: UIViewController  {
     
