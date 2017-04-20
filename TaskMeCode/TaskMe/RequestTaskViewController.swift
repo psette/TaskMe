@@ -37,6 +37,13 @@ class RequestTaskViewController: UIViewController, UIPickerViewDelegate, UIPicke
         print(UserInfoLocal.userID)
         ref.child("tasks").child(UserInfoLocal.userID).setValue(newTask)
         
+        let alert = UIAlertController(title: "", message: "Task for $" + String(format:"%.2f", ammountOffered.amount) + " confirmed.", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        let url = "https://venmo.com/?txn=pay&audience=public&recipients=pietro-sette&amount=" + String(format:"%.2f", ammountOffered.amount) + "&note=Paying " + descriptionField.text
+        let escapedString = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        let request = URL(string: escapedString!)!
+        UIApplication.shared.open(request)
 
     }
     

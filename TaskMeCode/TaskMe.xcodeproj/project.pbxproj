@@ -29,6 +29,7 @@
 		5FA688FA1E81CF2B007FF74C /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA688F91E81CF2B007FF74C /* CurrencyField.swift */; };
 		5FA972FA1E8216FB006905B8 /* CompleteTaskTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA972F91E8216FB006905B8 /* CompleteTaskTable.swift */; };
 		5FA972FC1E825CB6006905B8 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA972FB1E825CB6006905B8 /* customCell.swift */; };
+		5FACEEEC1EA8A67E00620DE5 /* RequestDeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FACEEEB1EA8A67E00620DE5 /* RequestDeliveryViewController.swift */; };
 		5FBE9C211E46E9E0008D2A4D /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */; };
 		783837D40A998D8764854226 /* Pods_TaskMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0954096C9A534E10CA11D885 /* Pods_TaskMeUITests.framework */; };
 		AF816DFAEC0D00E5A3E361E0 /* Pods_TaskMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE71E4046E890BB5A276494 /* Pods_TaskMe.framework */; };
@@ -84,6 +85,7 @@
 		5FA688F91E81CF2B007FF74C /* CurrencyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
 		5FA972F91E8216FB006905B8 /* CompleteTaskTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskTable.swift; sourceTree = "<group>"; };
 		5FA972FB1E825CB6006905B8 /* customCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		5FACEEEB1EA8A67E00620DE5 /* RequestDeliveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDeliveryViewController.swift; sourceTree = "<group>"; };
 		5FBE9C201E46E9E0008D2A4D /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		715E56D549FB7A1A939D7263 /* Pods-TaskMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeUITests/Pods-TaskMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85C196DEB8B265F00AA6753E /* Pods-TaskMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMe/Pods-TaskMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		5FA688FC1E81CF3D007FF74C /* RequestTaskLogic */ = {
 			isa = PBXGroup;
 			children = (
+				5FACEEEB1EA8A67E00620DE5 /* RequestDeliveryViewController.swift */,
 				5FA688F91E81CF2B007FF74C /* CurrencyField.swift */,
 				5FA688EF1E8121DD007FF74C /* RequestTaskViewController.swift */,
 				5FA688F71E81CE6A007FF74C /* RequestTaskOptionsViewController.swift */,
@@ -539,6 +542,7 @@
 				5FA972FA1E8216FB006905B8 /* CompleteTaskTable.swift in Sources */,
 				5FA688F81E81CE6A007FF74C /* RequestTaskOptionsViewController.swift in Sources */,
 				5FA688F21E81226B007FF74C /* CompleteTaskViewController.swift in Sources */,
+				5FACEEEC1EA8A67E00620DE5 /* RequestDeliveryViewController.swift in Sources */,
 				5F188DC01E46EFFD00EB73E2 /* ViewController.swift in Sources */,
 				5FA688F01E8121DD007FF74C /* RequestTaskViewController.swift in Sources */,
 				5F01CA9D1E3C361400411506 /* AppDelegate.swift in Sources */,
