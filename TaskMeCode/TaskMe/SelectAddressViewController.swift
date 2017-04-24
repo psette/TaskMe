@@ -33,9 +33,11 @@ class SelectAddressViewController: UIViewController, CLLocationManagerDelegate{
         if CLLocationManager.locationServicesEnabled() {
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.startUpdatingLocation()
             let locationSearchTable = storyboard!.instantiateViewController(withIdentifier: "LocationSearchTable") as! LocationSearchTable
             resultSearchController = UISearchController(searchResultsController: locationSearchTable)
             resultSearchController?.searchResultsUpdater = locationSearchTable
+
             let searchBar = resultSearchController!.searchBar
             searchBar.sizeToFit()
             searchBar.placeholder = "Search for places"
@@ -43,7 +45,6 @@ class SelectAddressViewController: UIViewController, CLLocationManagerDelegate{
             resultSearchController?.hidesNavigationBarDuringPresentation = false
             resultSearchController?.dimsBackgroundDuringPresentation = true
             definesPresentationContext = true
-            locationManager.startUpdatingLocation()
             locationSearchTable.mapView = mapView
         }
 

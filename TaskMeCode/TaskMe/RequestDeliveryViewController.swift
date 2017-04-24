@@ -38,6 +38,25 @@ class RequestDeliveryViewController: UIViewController {
         disableButtons();
         thisWeekButton.isSelected = true;
     }
+    
+    @IBOutlet var walkButton: UIButton!
+    @IBAction func walkPressed(_ sender: Any) {
+        disableTransportation();
+        urgentButton.isSelected = true;
+    }
+    
+    @IBOutlet var bikeButton: UIButton!
+    @IBAction func bikePressed(_ sender: Any) {
+        disableTransportation();
+        todayButton.isSelected = true;
+        
+    }
+    
+    @IBOutlet var carButton: UIButton!
+    @IBAction func carPressed(_ sender: Any) {
+        disableButtons();
+        thisWeekButton.isSelected = true;
+    }
 
     @IBOutlet var ammountLabel: CurrencyField!
     
@@ -106,6 +125,13 @@ class RequestDeliveryViewController: UIViewController {
         thisWeekButton.isSelected = false;
         
     }
+    func disableTransportation(){
+        walkButton.isSelected = false;
+        bikeButton.isSelected = false;
+        carButton.isSelected = false;
+        
+    }
+
     
     func showErrorMessage(message: String) {
         let alert = UIAlertController(title: "", message: message, preferredStyle: UIAlertControllerStyle.alert)
